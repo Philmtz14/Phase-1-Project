@@ -1,32 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Chess</title>
+    <title>Breweries</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Lets Learn about Chess</h2>
-    <h3>Click on each piece</h3>
-    
-    <ul>
-        <li>
-            <h4>Pawn</h4>
-            <div></div>
-        </li>
-        <li>
-            <h4>Knight</h4>
-        </li>
-        <li>
-            <h4>Bishop</h4>
-        </li>
-        <li>
-            <h4>Rook</h4>
-        </li>
-        <li>
-            <h4>Queen</h4>
-        </li>
-        <li>
-            <h4>King</h4>
-        </li>
-    </ul>
+    <h2>What Brewery is around you?</h3>
+        <section>
+            <form>
+                <label for="new_brewery">Look Up a Brewery</label>
+                <input id="new_brewery" type="text" placeholder="Search Brewery"/>
+                <button type="submit">Search</button>
+                <button type="reset">Clear</button>
+            </form>
+        </section>
+        <section>
+            <ul id="brewery_location">
+                <!--Breweries Here-->
+            </ul>
+        </section>
 </body>
+<script src="index.js"></script>
 </html>
